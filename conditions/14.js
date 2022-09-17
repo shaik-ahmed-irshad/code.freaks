@@ -14,10 +14,10 @@
 // 1. if condition
 
 // if (condition) {
-    //  statement/task
+//      statement/task
 // }
 
-// if (1){ console.log('I am one')}
+// if (15){ console.log('I am one')}
 
 // if (true){ console.log('I am one')}
 
@@ -58,11 +58,12 @@
 // }
 
 
+
 // if ([1,2]==[1,2]){
 //     console.log('hey')
 // }
 
-// if ((2 == '2')| ((2) == 2.0)){
+// if ((2 == '2')|| ((2) == 2.0)){
 //     console.log('hey2')
 // }
 
@@ -89,7 +90,7 @@
 // if ('Sahana' === 'sahana'){
 //     console.log('hey4')
 // }
-// if ('Sahana' === 'Sahana'){
+// if ("1" === '1'){
 //     console.log('hey5')
 // }
 

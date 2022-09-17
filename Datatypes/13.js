@@ -23,13 +23,13 @@
 // console.log(a.b)
 // console.log(a.c)
 
-var abc = {
-    a: [9, 99, 999],
-    b: [1, 2, 3, 4, 5],
-    c: ["abc", { a: 11, b: 12 }]
-}
+// var abc = {
+//     a: [9, 99, 999],
+//     b: [1, 2, 3, 4, 5],
+//     c: ["abc", { a: 11, b: 12 }]
+// }
 
 // console.log(abc.c)
 // console.log(abc['c'])
 
-console.log(abc.c[1].a)
+// console.log(abc.c[1].a)

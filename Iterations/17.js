@@ -37,13 +37,13 @@
 // }
 
 // Write a program to print even numbers between 50-100?
-i=50
-while (i<=100){
-   if ((i%2)==0){
-    console.log(i)
-   }         
-    i++;
-}
+// i=50
+// while (i<=100){
+//    if ((i%2)==0){
+//     console.log(i)
+//    }         
+//     i++;
+// }
 // Iteration-1: i=50; 50<=100 ; 50 (51)
 // Iteration-2: i=51; 51<=100 ; (52)
 // Iteration-3: i=52; 52<=100 ; 52 (53)
@@ -61,29 +61,29 @@ while (i<=100){
 // }
 
 
-// Alternative even numbers ; 
-i=50
-while (i<=100){ //
-    console.log(i)      
-    i+=2; 
-}
+// // Alternative even numbers ; 
+// i=50
+// while (i<=100){ //
+//     console.log(i)      
+//     i+=2; 
+// }
 
-// Alternative odd numbers ; 
-i=51
-while (i<=100){ //
-    console.log(i)      
-    i+=2; 
-}
+// // Alternative odd numbers ; 
+// i=51
+// while (i<=100){ //
+//     console.log(i)      
+//     i+=2; 
+// }
 
 
 // Number of iterations
-// count = 0
 
+// let count = 0
 // i=50
 // while (i<=100){ //
 //     count++
 //     console.log(i)      
 //     i+=2; 
-//     // console.log(`count is ${count}`)
+//     console.log(`count is ${count}`)
 // }
 // console.log(`count is ${count}`)

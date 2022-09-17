@@ -1,38 +1,42 @@
 // Write a program to decide a given number is a positive/negative/zero
-var a=3
-if (a<0){
-    console.log('negative')
-}
-else if (a>0){
-    console.log('positive')
-}
-else{
-    console.log('zero')
-}
+
+// let num="ghv"
+
+// if(num>0){
+//     console.log('positive')
+// }
+// else if (num<0){
+//     console.log('negative')
+// }
+// else if(num==0){
+//      console.log('zero')
+// }
+// else console.log('not valid input')
 
 
 // Write a program to decide given number is odd number or even number?
 
+// num=9
+// if(num%2==0){console.log('even') } else{ console.log('odd')}
 // var a='56';
 // if ((a%2)==0){
-//     console.log('even')
+//     console.log(a,'even')
 // }
 // else{
 //     console.log('odd')
 // }
 
-
 // Write a program to decide which number is greater?
-var a=40,b=40;
-if (a>b){
-    console.log(`${a} is greater than ${b} `)
-}
-else if (a<b){
-    console.log(`${b} is greater than ${a} `)
-}
-else{
-    console.log(`${a} and ${b} are equal `)
-}
+// var a=40,b=40;
+// if (a>b){
+//     console.log(`${a} is greater than ${b} `)
+// }
+// else if (a<b){
+//     console.log(`${b} is greater than ${a} `)
+// }
+// else{
+//     console.log(`${a} and ${b} are equal `)
+// }
 
 
 // Bonus - Find the greatest number among 3 inputs?

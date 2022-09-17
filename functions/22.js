@@ -15,22 +15,26 @@
 
 
 // Function without parameters
-function add(){
-    console.log(2+3)
-}
-// console.log(add())
+// function add(){
+//     console.log(2+3)
+// }
+// // console.log(add())
 
 // add()
 
-
 // add(6,7)
 // Function with parameters
-function add(a,b){
-    // console.log(a)
-    // console.log(b)
-    console.log(a+b)
-}
-// console.log(add())
+// function add(a,b){
+//     // console.log(a)
+//     // console.log(b)
+//     c = a+b
+//     return c;
+//     // console.log(a+b)
+    
+// }
+// // // add(1,2)
+// console.log(add(1,2))
+
 
 // add()
 // add(6,7)
@@ -40,22 +44,48 @@ function add(a,b){
 
 // function even(a){
 //     if ((a%2)==0){
-//         console.log(a,'is even')
+//         return `${a} is even`
+//         // console.log(a,'is even')
 //     }
+//     return (`${a} is odd`)
+    
 // }
+
+// console.log(even(8))
+
 
 // for (i=5;i<=15;i++){
-//     even(i)
+//     console.log(even(i))
 // }
 
+function even(a){
+    for (i=1;i<=a;i++){
+    if ((i%2)==0){
+        console.log(i,'is even')
+    }
+}
+// }
 
-// function even(a){
-//     for (i=1;i<=a;i++){
-//     if ((i%2)==0){
-//         console.log(i,'is even')
-//     }
-// }
-// }
+console.log(even(a))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // even(15)
 // function even(a){
@@ -115,18 +145,18 @@ function add(a,b){
 
 
 
-a = [23,1,25,16,190,6,9,10]
-// a[0]=24
-// console.log(a)
-function max(a){
-    b = a[0] //23
-    for (i=1;i<=(a.length-1);i++){ 
-        console.log(a[i]>b)
-        if (a[i]>b){ //1>23, 25>23, 16>25,19>25,6>25,9>25,10>25
-            b = a[i] //25
-            // console.log(a)
-        }
-    }
-    return b
-}
-console.log(max(a))
+// a = [23,1,25,16,190,6,9,10]
+// // a[0]=24
+// // console.log(a)
+// function max(a){
+//     b = a[0] //23
+//     for (i=1;i<=(a.length-1);i++){ 
+//         console.log(a[i]>b)
+//         if (a[i]>b){ //1>23, 25>23, 16>25,19>25,6>25,9>25,10>25
+//             b = a[i] //25
+//             // console.log(a)
+//         }
+//     }
+//     return b
+// }
+// console.log(max(a))

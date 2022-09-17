@@ -2,6 +2,8 @@
 // for (i=1;i<=5;i++){
 //     console.log(i)
 // }
+// console.log("------------");
+// console.log(i)
 
 // Iteration-1: i=1; i<=5; 1
 // Iteration-2: i=2; i<=5; 2
@@ -16,9 +18,13 @@
 // }
 
 // Write a program to print even numbers between 50-100?
+
 // for (i=50;i<=100;i=i+2){
 //     console.log(i)
 // }
+
+
+
 
 // for (i=50;i<=100;i++){
 //     if ((i%2)==0){
@@ -27,22 +33,41 @@
 // }
 
 // WAP to print odd numbers between 1-100
-// for (i=1;i<=100;i++){
+// for (i=50;i<=100;i++){
 //     if ((i%2)!=0){
 //         console.log(i)
 //        } 
 // }
+
+
+
+
+
 // WAP to print 10 table?
 // for (i=1;i<=10;i++){
 //     console.log(`10 x ${i} = ${10 * i}`)
 // }
 
 // Nested Loops
-// for (i=0;i<=2;i++){
-//     for (j=0;j<=2;j++){
-//         console.log(i,j)
-//     }
-// }
+for (i=0;i<=2;i++){
+
+    for (j=0;j<=2;j++){
+        
+        console.log(i,j)
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Print Multiple table

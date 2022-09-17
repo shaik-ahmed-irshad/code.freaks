@@ -8,6 +8,7 @@
 // var a;
 // var a=3;
 // a=4;
+// console.log(a)
 
 // var a=3;
 // var a=4;
@@ -81,10 +82,10 @@
 // let a=3
 // console.log(a)
 // { 
-//     a=4
+//     let a=4
 //     console.log(a)
 // }
-// a=6
+// let a=6
 // console.log(a)
 
 // let is global
@@ -116,14 +117,17 @@
 // const a=3;
 // console.log(a)
 
-// const a;
+// const a=3;
 // a=4
+// console.log(a)
 
 // const a=3;
 // const a=5;
 
 // var a=4;
+// let a=3
 // const a=3;
+// console.log(a)
 
 // a=4;
 // const a=3;
@@ -145,7 +149,7 @@
 // {   let a=7
 //     console.log(a)
 // }
-// // var a=8;
+// var a=8;
 // console.log(a)
 
 
@@ -165,7 +169,7 @@
 // let a = 8;
 // {
 //     const a=0;
-//     // a=90
+//     a=90
 //     {
 //         const a=9;
 //         console.log(a)
@@ -176,14 +180,14 @@
 
 // var a = 8
 // {
-//     console.log(a)
+//     // console.log(a)
 //     {
-//         console.log(b)
-//         const b = 9
 //         // console.log(a)
+//         const a = 9
+//         console.log(a)
 //     }
-//     console.log(a)
 //     let a =99
+//     console.log(a)
 // }
 // console.log(a)
 

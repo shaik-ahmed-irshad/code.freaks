@@ -58,33 +58,16 @@
 //     console.log(even(i))
 // }
 
-function even(a){
-    for (i=1;i<=a;i++){
-    if ((i%2)==0){
-        console.log(i,'is even')
-    }
-}
+// function even(a){
+//     for (i=1;i<=a;i++){
+//     if ((i%2)==0){
+//         // return i `is even`
+//         console.log(i,'is even')
+//     }
 // }
-
-console.log(even(a))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// }
+// even(8)
+// console.log(even(8))
 
 
 // even(15)
@@ -99,20 +82,43 @@ console.log(even(a))
 // even(15)
 
 
+
 // function test(a){
-    // return a
-    // console.log(1)
-    // console.log(2)
-    // console.log(3)
+//     // return a
+//     console.log(1)
+//     console.log(2)
+//     console.log(3)
 // }
 // c = test(2)
 // console.log(c)
 // console.log(test(2))
 
+// function table (a){
+//     for (i=1;i<=10;i++){
+//         console.log(`${a} x ${i} = ${a(i)}`)
+//     }
+// }
 
-// a = {1:'a', 2:'b', 3:'c',2:'d',1:'e',3:'f'}
-// a = {'1':'a'}
-// console.log(a)
+
+// table(5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a = {1:'a', 2:'b', 3:'c',2:'d',1:'e',3:'f'}
+a = {'1':'a'}
+console.log(a)
 
 // a = {1:'a', 2:'b', 3:'c',2:'c',1:'a',2:'f',3:'c'}
 // a = {'a':1,b:2,b:3,'c':4}
